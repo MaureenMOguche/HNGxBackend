@@ -13,7 +13,7 @@ namespace stage1.Models
         [JsonPropertyName("current_day")]
         public string CurrentDay { get; set; } = string.Empty;
         [JsonPropertyName("utc_time")]
-        public string UtcTime { get; set; } = string.Empty;
+        public DateTime UtcTime { get; set; }
         [JsonPropertyName("track")]
         public string Track { get; set; } = string.Empty;
         [JsonPropertyName("github_file_url")]

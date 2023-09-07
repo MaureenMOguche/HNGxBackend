@@ -4,7 +4,7 @@ using stage1.Models;
 namespace stage1.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api")]
     public class HNGStageOne : ControllerBase
     {
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -16,11 +16,11 @@ namespace stage1.Controllers
             if ((slack_name.ToLower().Contains("maureen") || slack_name.ToLower().Contains("oguche")) 
                 && track.ToLower() == "backend")
             {
-                HngDetail detail = new HngDetail{
+                HngDetail detail = new(){
                     SlackName = "Maureen Oguche",
                     CurrentDay = DateTime.UtcNow.DayOfWeek.ToString(),
-                    UtcTime = DateTime.UtcNow.TimeOfDay.ToString(),
-                    Track = "Backend",
+                    UtcTime = DateTime.UtcNow,
+                    Track = "backend",
                     GithubFile = "https://github.com/MaureenMOguche/HNGxBackend/blob/main/Stage1/stage1/Controllers/HNGStageOne.cs",
                     GithubRepo = "https://github.com/MaureenMOguche/HNGxBackend",
                     StatusCode = 200
