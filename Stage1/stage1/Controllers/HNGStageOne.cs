@@ -19,7 +19,7 @@ namespace stage1.Controllers
                 HngDetail detail = new(){
                     SlackName = "Maureen Oguche",
                     CurrentDay = DateTime.UtcNow.DayOfWeek.ToString(),
-                    UtcTime = DateTime.UtcNow,
+                    UtcTime = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"),
                     Track = "backend",
                     GithubFile = "https://github.com/MaureenMOguche/HNGxBackend/blob/main/Stage1/stage1/Controllers/HNGStageOne.cs",
                     GithubRepo = "https://github.com/MaureenMOguche/HNGxBackend",
