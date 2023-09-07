@@ -7,11 +7,15 @@ namespace stage1.Controllers
     [Route("api/[controller]")]
     public class HNGStageOne : ControllerBase
     {
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         [HttpGet()]
         public IActionResult GetHNGDetails(string slack_name, string track)
         {
             var names = slack_name.Split(' ');
-            if (slack_name.ToLower().Contains("maureen") || slack_name.ToLower().Contains("oguche")){
+            if ((slack_name.ToLower().Contains("maureen") || slack_name.ToLower().Contains("oguche")) 
+                && track.ToLower() == "backend")
+            {
                 HngDetail detail = new HngDetail{
                     SlackName = "Maureen Oguche",
                     CurrentDay = DateTime.UtcNow.DayOfWeek.ToString(),
