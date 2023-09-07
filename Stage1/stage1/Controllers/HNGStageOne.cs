@@ -17,8 +17,8 @@ namespace stage1.Controllers
                     CurrentDay = DateTime.UtcNow.DayOfWeek.ToString(),
                     UtcTime = DateTime.UtcNow.TimeOfDay.ToString(),
                     Track = "Backend",
-                    GithubFile = "",
-                    GithubRepo = "",
+                    GithubFile = "https://github.com/MaureenMOguche/HNGxBackend/blob/main/Stage1/stage1/Controllers/HNGStageOne.cs",
+                    GithubRepo = "https://github.com/MaureenMOguche/HNGxBackend",
                     StatusCode = 200
                 };
                 return Ok(detail);

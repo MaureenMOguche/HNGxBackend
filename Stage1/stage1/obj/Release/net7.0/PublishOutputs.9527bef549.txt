@@ -1,0 +1,12 @@
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\stage1.exe
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\stage1.dll
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\stage1.deps.json
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\stage1.runtimeconfig.json
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\stage1.pdb
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\twarm\HNGxBackend\Stage1\stage1\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
